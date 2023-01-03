@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    {{>header}}
+
+        <div class="higthligh">
+      <div class="oper">
+        <div class="heading">
+          <h3 >ADD A NEW PRODUCT</h3>
+        </div>
+        <div class="btn">
+            <button type="button" class="contact_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+          </div>
+    </div>
+          <div class="farm">
+          <form action="/shoes/add" method="post" enctype="multipart/form-data" >
+    
+    
+            <input type="text" id="title" name="title" class="w-9 " value="product title" required><br>
+        
+                <input type="text" id="category" name="category"class="w-9 " value="category" required><br>
+                   <label  >price</label><br>
+                <input type="number" id="price" name="price"class="w-9" ><br>
+                 <label  >quantity</label><br>
+                <input type="number" id="quantity" name="quantity"class="w-9"><br>
+                <label for="experience"> Description</label><br>
+  <textarea name="description" rows="8" cols="70" ></textarea>
+  <br>
+  <label for="myfile">Select a image:</label><br>
+  <input type="file" id="file" name="file"><br><br>
+                
+
+             
+              <input type="submit" value="Submit" class="w-9" style="background-color: rgba(255, 51, 0, 0.548);">
+               </form>
+          </div>
+    </div>
+
+
+
+    {{>footer}}
+</body>
+</html>

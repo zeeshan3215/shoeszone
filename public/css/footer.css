@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2;
+    font-weight: 400;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+.footer-wrapper{
+    width: 80%;
+    margin: auto;
+   
+}
+.bg-b{
+    background-color: #171717;
+}
+.d-i-b{
+    display: inline-block;
+}
+.w-25{
+    width: 24%;
+}
+.w-50{
+    width: 49%;
+}
+.t-a-c{
+    text-align: center;
+}
+.t-a-e{
+    text-align: end;
+}
+.v-a-m{
+    vertical-align: middle;
+}
+.h2 li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.h3 li{
+    display: inline-block;
+    padding: 10px;
+
+
+}
+.fa-brands{
+    color:white;
+    font-size:larger;
+}
+.footer-wrapper h5{
+    color:white;
+    margin-bottom: 20px;
+}
+.h{
+    margin-top: 50px;
+
+}
+.footer-wrapper li{
+    color: rgb(179, 179, 179);
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer-wrapper li:hover{
+    color: rgb(0, 252, 252);
+}
+.pr-5{
+    padding-right: 10px;
+}
+.footer-wrapper li a:before {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        position: relative;
+        padding-right: 10px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.v-a-t{
+    vertical-align: top;
+}
+.foot2{
+    background-color: rgb(34, 34, 34);
+}
+.foot2 li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    color: rgb(197, 189, 189);
+    vertical-align: middle;
+}
+.line{
+    border-right: 1px solid white;
+    position:relative;
+    top: 5px;
+    height: 20px;
+    display: inline-block;
+}
+.container{
+    background-color: #571f7c;   
+}
+.p-10{
+    padding: 10px;
+}
+.c-w{
+    color:white;
+}
